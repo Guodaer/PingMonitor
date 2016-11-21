@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F7EFA11DE288B600FE5072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFA01DE288B600FE5072 /* main.m */; };
+		04F7EFA41DE288B600FE5072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFA31DE288B600FE5072 /* AppDelegate.m */; };
+		04F7EFA71DE288B600FE5072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFA61DE288B600FE5072 /* ViewController.m */; };
+		04F7EFAA1DE288B600FE5072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EFA81DE288B600FE5072 /* Main.storyboard */; };
+		04F7EFAC1DE288B700FE5072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EFAB1DE288B700FE5072 /* Assets.xcassets */; };
+		04F7EFAF1DE288B700FE5072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EFAD1DE288B700FE5072 /* LaunchScreen.storyboard */; };
+		04F7EFBA1DE288B700FE5072 /* PingMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFB91DE288B700FE5072 /* PingMonitorTests.m */; };
+		04F7EFC51DE288B700FE5072 /* PingMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFC41DE288B700FE5072 /* PingMonitorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F7EFB61DE288B700FE5072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F7EF941DE288B600FE5072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F7EF9B1DE288B600FE5072;
+			remoteInfo = PingMonitor;
+		};
+		04F7EFC11DE288B700FE5072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F7EF941DE288B600FE5072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F7EF9B1DE288B600FE5072;
+			remoteInfo = PingMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F7EF9C1DE288B600FE5072 /* PingMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F7EFA01DE288B600FE5072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F7EFA21DE288B600FE5072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F7EFA31DE288B600FE5072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F7EFA51DE288B600FE5072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F7EFA61DE288B600FE5072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F7EFA91DE288B600FE5072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F7EFAB1DE288B700FE5072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F7EFAE1DE288B700FE5072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F7EFB01DE288B700FE5072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F7EFB51DE288B700FE5072 /* PingMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F7EFB91DE288B700FE5072 /* PingMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingMonitorTests.m; sourceTree = "<group>"; };
+		04F7EFBB1DE288B700FE5072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F7EFC01DE288B700FE5072 /* PingMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F7EFC41DE288B700FE5072 /* PingMonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingMonitorUITests.m; sourceTree = "<group>"; };
+		04F7EFC61DE288B700FE5072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F7EF991DE288B600FE5072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7EFB21DE288B700FE5072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7EFBD1DE288B700FE5072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F7EF931DE288B600FE5072 = {
+			isa = PBXGroup;
+			children = (
+				04F7EF9E1DE288B600FE5072 /* PingMonitor */,
+				04F7EFB81DE288B700FE5072 /* PingMonitorTests */,
+				04F7EFC31DE288B700FE5072 /* PingMonitorUITests */,
+				04F7EF9D1DE288B600FE5072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F7EF9D1DE288B600FE5072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F7EF9C1DE288B600FE5072 /* PingMonitor.app */,
+				04F7EFB51DE288B700FE5072 /* PingMonitorTests.xctest */,
+				04F7EFC01DE288B700FE5072 /* PingMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F7EF9E1DE288B600FE5072 /* PingMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				04F7EFA21DE288B600FE5072 /* AppDelegate.h */,
+				04F7EFA31DE288B600FE5072 /* AppDelegate.m */,
+				04F7EFA51DE288B600FE5072 /* ViewController.h */,
+				04F7EFA61DE288B600FE5072 /* ViewController.m */,
+				04F7EFA81DE288B600FE5072 /* Main.storyboard */,
+				04F7EFAB1DE288B700FE5072 /* Assets.xcassets */,
+				04F7EFAD1DE288B700FE5072 /* LaunchScreen.storyboard */,
+				04F7EFB01DE288B700FE5072 /* Info.plist */,
+				04F7EF9F1DE288B600FE5072 /* Supporting Files */,
+			);
+			path = PingMonitor;
+			sourceTree = "<group>";
+		};
+		04F7EF9F1DE288B600FE5072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F7EFA01DE288B600FE5072 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F7EFB81DE288B700FE5072 /* PingMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F7EFB91DE288B700FE5072 /* PingMonitorTests.m */,
+				04F7EFBB1DE288B700FE5072 /* Info.plist */,
+			);
+			path = PingMonitorTests;
+			sourceTree = "<group>";
+		};
+		04F7EFC31DE288B700FE5072 /* PingMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F7EFC41DE288B700FE5072 /* PingMonitorUITests.m */,
+				04F7EFC61DE288B700FE5072 /* Info.plist */,
+			);
+			path = PingMonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F7EF9B1DE288B600FE5072 /* PingMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F7EFC91DE288B700FE5072 /* Build configuration list for PBXNativeTarget "PingMonitor" */;
+			buildPhases = (
+				04F7EF981DE288B600FE5072 /* Sources */,
+				04F7EF991DE288B600FE5072 /* Frameworks */,
+				04F7EF9A1DE288B600FE5072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingMonitor;
+			productName = PingMonitor;
+			productReference = 04F7EF9C1DE288B600FE5072 /* PingMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F7EFB41DE288B700FE5072 /* PingMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F7EFCC1DE288B700FE5072 /* Build configuration list for PBXNativeTarget "PingMonitorTests" */;
+			buildPhases = (
+				04F7EFB11DE288B700FE5072 /* Sources */,
+				04F7EFB21DE288B700FE5072 /* Frameworks */,
+				04F7EFB31DE288B700FE5072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F7EFB71DE288B700FE5072 /* PBXTargetDependency */,
+			);
+			name = PingMonitorTests;
+			productName = PingMonitorTests;
+			productReference = 04F7EFB51DE288B700FE5072 /* PingMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F7EFBF1DE288B700FE5072 /* PingMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F7EFCF1DE288B700FE5072 /* Build configuration list for PBXNativeTarget "PingMonitorUITests" */;
+			buildPhases = (
+				04F7EFBC1DE288B700FE5072 /* Sources */,
+				04F7EFBD1DE288B700FE5072 /* Frameworks */,
+				04F7EFBE1DE288B700FE5072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F7EFC21DE288B700FE5072 /* PBXTargetDependency */,
+			);
+			name = PingMonitorUITests;
+			productName = PingMonitorUITests;
+			productReference = 04F7EFC01DE288B700FE5072 /* PingMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F7EF941DE288B600FE5072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Guoda;
+				TargetAttributes = {
+					04F7EF9B1DE288B600FE5072 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MCA22CRP8N;
+						ProvisioningStyle = Automatic;
+					};
+					04F7EFB41DE288B700FE5072 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MCA22CRP8N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04F7EF9B1DE288B600FE5072;
+					};
+					04F7EFBF1DE288B700FE5072 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MCA22CRP8N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04F7EF9B1DE288B600FE5072;
+					};
+				};
+			};
+			buildConfigurationList = 04F7EF971DE288B600FE5072 /* Build configuration list for PBXProject "PingMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F7EF931DE288B600FE5072;
+			productRefGroup = 04F7EF9D1DE288B600FE5072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F7EF9B1DE288B600FE5072 /* PingMonitor */,
+				04F7EFB41DE288B700FE5072 /* PingMonitorTests */,
+				04F7EFBF1DE288B700FE5072 /* PingMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F7EF9A1DE288B600FE5072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7EFAF1DE288B700FE5072 /* LaunchScreen.storyboard in Resources */,
+				04F7EFAC1DE288B700FE5072 /* Assets.xcassets in Resources */,
+				04F7EFAA1DE288B600FE5072 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7EFB31DE288B700FE5072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7EFBE1DE288B700FE5072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F7EF981DE288B600FE5072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7EFA71DE288B600FE5072 /* ViewController.m in Sources */,
+				04F7EFA41DE288B600FE5072 /* AppDelegate.m in Sources */,
+				04F7EFA11DE288B600FE5072 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7EFB11DE288B700FE5072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7EFBA1DE288B700FE5072 /* PingMonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7EFBC1DE288B700FE5072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7EFC51DE288B700FE5072 /* PingMonitorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F7EFB71DE288B700FE5072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F7EF9B1DE288B600FE5072 /* PingMonitor */;
+			targetProxy = 04F7EFB61DE288B700FE5072 /* PBXContainerItemProxy */;
+		};
+		04F7EFC21DE288B700FE5072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F7EF9B1DE288B600FE5072 /* PingMonitor */;
+			targetProxy = 04F7EFC11DE288B700FE5072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F7EFA81DE288B600FE5072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F7EFA91DE288B600FE5072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F7EFAD1DE288B700FE5072 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F7EFAE1DE288B700FE5072 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F7EFC71DE288B700FE5072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F7EFC81DE288B700FE5072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F7EFCA1DE288B700FE5072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCA22CRP8N;
+				INFOPLIST_FILE = PingMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.PingMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F7EFCB1DE288B700FE5072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCA22CRP8N;
+				INFOPLIST_FILE = PingMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.PingMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04F7EFCD1DE288B700FE5072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MCA22CRP8N;
+				INFOPLIST_FILE = PingMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.PingMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingMonitor.app/PingMonitor";
+			};
+			name = Debug;
+		};
+		04F7EFCE1DE288B700FE5072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MCA22CRP8N;
+				INFOPLIST_FILE = PingMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.PingMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingMonitor.app/PingMonitor";
+			};
+			name = Release;
+		};
+		04F7EFD01DE288B700FE5072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MCA22CRP8N;
+				INFOPLIST_FILE = PingMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.PingMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PingMonitor;
+			};
+			name = Debug;
+		};
+		04F7EFD11DE288B700FE5072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MCA22CRP8N;
+				INFOPLIST_FILE = PingMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.PingMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PingMonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F7EF971DE288B600FE5072 /* Build configuration list for PBXProject "PingMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7EFC71DE288B700FE5072 /* Debug */,
+				04F7EFC81DE288B700FE5072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F7EFC91DE288B700FE5072 /* Build configuration list for PBXNativeTarget "PingMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7EFCA1DE288B700FE5072 /* Debug */,
+				04F7EFCB1DE288B700FE5072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F7EFCC1DE288B700FE5072 /* Build configuration list for PBXNativeTarget "PingMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7EFCD1DE288B700FE5072 /* Debug */,
+				04F7EFCE1DE288B700FE5072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F7EFCF1DE288B700FE5072 /* Build configuration list for PBXNativeTarget "PingMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7EFD01DE288B700FE5072 /* Debug */,
+				04F7EFD11DE288B700FE5072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F7EF941DE288B600FE5072 /* Project object */;
+}
