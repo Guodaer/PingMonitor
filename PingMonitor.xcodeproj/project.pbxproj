@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		04F7EFA11DE288B600FE5072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFA01DE288B600FE5072 /* main.m */; };
 		04F7EFA41DE288B600FE5072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFA31DE288B600FE5072 /* AppDelegate.m */; };
-		04F7EFA71DE288B600FE5072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFA61DE288B600FE5072 /* ViewController.m */; };
-		04F7EFAA1DE288B600FE5072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EFA81DE288B600FE5072 /* Main.storyboard */; };
 		04F7EFAC1DE288B700FE5072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EFAB1DE288B700FE5072 /* Assets.xcassets */; };
 		04F7EFAF1DE288B700FE5072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EFAD1DE288B700FE5072 /* LaunchScreen.storyboard */; };
 		04F7EFBA1DE288B700FE5072 /* PingMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFB91DE288B700FE5072 /* PingMonitorTests.m */; };
 		04F7EFC51DE288B700FE5072 /* PingMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFC41DE288B700FE5072 /* PingMonitorUITests.m */; };
+		04F7EFD81DE2898B00FE5072 /* STSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFD71DE2898B00FE5072 /* STSimplePing.m */; };
+		04F7EFDB1DE289B900FE5072 /* STDPingServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFDA1DE289B900FE5072 /* STDPingServices.m */; };
+		04F7EFDE1DE2987B00FE5072 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7EFDD1DE2987B00FE5072 /* libz.tbd */; };
+		04F7EFDF1DE298DB00FE5072 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7EFD31DE2895300FE5072 /* libz.1.2.5.tbd */; };
+		04F7EFE31DE29D0700FE5072 /* CircularProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFE21DE29D0700FE5072 /* CircularProgressBar.m */; };
+		04F7EFE91DE2DA6D00FE5072 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFE81DE2DA6D00FE5072 /* RootViewController.m */; };
+		04F7EFED1DE2DC3400FE5072 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFEC1DE2DC3400FE5072 /* WKWebViewController.m */; };
+		04F7EFF31DE2EDD900FE5072 /* lhCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFF01DE2EDD900FE5072 /* lhCircleView.m */; };
+		04F7EFF41DE2EDD900FE5072 /* NSTimer+LHBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFF21DE2EDD900FE5072 /* NSTimer+LHBlockSupport.m */; };
+		04F7EFF71DE2FEB800FE5072 /* GDFadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EFF61DE2FEB800FE5072 /* GDFadeView.m */; };
+		F4BA7FA3A0877099E9254119 /* libPods-PingMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2008CBF15C4EE809B2EDFD67 /* libPods-PingMonitor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +48,6 @@
 		04F7EFA01DE288B600FE5072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04F7EFA21DE288B600FE5072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04F7EFA31DE288B600FE5072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04F7EFA51DE288B600FE5072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04F7EFA61DE288B600FE5072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04F7EFA91DE288B600FE5072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04F7EFAB1DE288B700FE5072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F7EFAE1DE288B700FE5072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F7EFB01DE288B700FE5072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,28 @@
 		04F7EFC01DE288B700FE5072 /* PingMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7EFC41DE288B700FE5072 /* PingMonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingMonitorUITests.m; sourceTree = "<group>"; };
 		04F7EFC61DE288B700FE5072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F7EFD31DE2895300FE5072 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		04F7EFD61DE2898B00FE5072 /* STSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSimplePing.h; sourceTree = "<group>"; };
+		04F7EFD71DE2898B00FE5072 /* STSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSimplePing.m; sourceTree = "<group>"; };
+		04F7EFD91DE289B900FE5072 /* STDPingServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDPingServices.h; sourceTree = "<group>"; };
+		04F7EFDA1DE289B900FE5072 /* STDPingServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDPingServices.m; sourceTree = "<group>"; };
+		04F7EFDC1DE28B1300FE5072 /* GDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDPrefixHeader.pch; sourceTree = "<group>"; };
+		04F7EFDD1DE2987B00FE5072 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		04F7EFE11DE29D0700FE5072 /* CircularProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressBar.h; sourceTree = "<group>"; };
+		04F7EFE21DE29D0700FE5072 /* CircularProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressBar.m; sourceTree = "<group>"; };
+		04F7EFE71DE2DA6D00FE5072 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		04F7EFE81DE2DA6D00FE5072 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		04F7EFEB1DE2DC3400FE5072 /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		04F7EFEC1DE2DC3400FE5072 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		04F7EFEF1DE2EDD900FE5072 /* lhCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhCircleView.h; sourceTree = "<group>"; };
+		04F7EFF01DE2EDD900FE5072 /* lhCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lhCircleView.m; sourceTree = "<group>"; };
+		04F7EFF11DE2EDD900FE5072 /* NSTimer+LHBlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+LHBlockSupport.h"; sourceTree = "<group>"; };
+		04F7EFF21DE2EDD900FE5072 /* NSTimer+LHBlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+LHBlockSupport.m"; sourceTree = "<group>"; };
+		04F7EFF51DE2FEB800FE5072 /* GDFadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDFadeView.h; sourceTree = "<group>"; };
+		04F7EFF61DE2FEB800FE5072 /* GDFadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDFadeView.m; sourceTree = "<group>"; };
+		2008CBF15C4EE809B2EDFD67 /* libPods-PingMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PingMonitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EB9A74C2CB721D29002B0F /* Pods-PingMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-PingMonitor/Pods-PingMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		CB8C5477183A4B1B97655C71 /* Pods-PingMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PingMonitor/Pods-PingMonitor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F7EFDF1DE298DB00FE5072 /* libz.1.2.5.tbd in Frameworks */,
+				04F7EFDE1DE2987B00FE5072 /* libz.tbd in Frameworks */,
+				F4BA7FA3A0877099E9254119 /* libPods-PingMonitor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +116,8 @@
 				04F7EFB81DE288B700FE5072 /* PingMonitorTests */,
 				04F7EFC31DE288B700FE5072 /* PingMonitorUITests */,
 				04F7EF9D1DE288B600FE5072 /* Products */,
+				04F7EFD21DE2895300FE5072 /* Frameworks */,
+				C3B85787F714DFC1F448D99B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +136,15 @@
 			children = (
 				04F7EFA21DE288B600FE5072 /* AppDelegate.h */,
 				04F7EFA31DE288B600FE5072 /* AppDelegate.m */,
-				04F7EFA51DE288B600FE5072 /* ViewController.h */,
-				04F7EFA61DE288B600FE5072 /* ViewController.m */,
-				04F7EFA81DE288B600FE5072 /* Main.storyboard */,
+				04F7EFE71DE2DA6D00FE5072 /* RootViewController.h */,
+				04F7EFE81DE2DA6D00FE5072 /* RootViewController.m */,
+				04F7EFDC1DE28B1300FE5072 /* GDPrefixHeader.pch */,
+				04F7EFF51DE2FEB800FE5072 /* GDFadeView.h */,
+				04F7EFF61DE2FEB800FE5072 /* GDFadeView.m */,
+				04F7EFEE1DE2EDD900FE5072 /* LHCircleView */,
+				04F7EFEA1DE2DC3400FE5072 /* LoadWebView */,
+				04F7EFE01DE29CFF00FE5072 /* CircularProgress */,
+				04F7EFD51DE2897900FE5072 /* PingTest */,
 				04F7EFAB1DE288B700FE5072 /* Assets.xcassets */,
 				04F7EFAD1DE288B700FE5072 /* LaunchScreen.storyboard */,
 				04F7EFB01DE288B700FE5072 /* Info.plist */,
@@ -140,6 +179,65 @@
 			path = PingMonitorUITests;
 			sourceTree = "<group>";
 		};
+		04F7EFD21DE2895300FE5072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F7EFDD1DE2987B00FE5072 /* libz.tbd */,
+				04F7EFD31DE2895300FE5072 /* libz.1.2.5.tbd */,
+				2008CBF15C4EE809B2EDFD67 /* libPods-PingMonitor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F7EFD51DE2897900FE5072 /* PingTest */ = {
+			isa = PBXGroup;
+			children = (
+				04F7EFD61DE2898B00FE5072 /* STSimplePing.h */,
+				04F7EFD71DE2898B00FE5072 /* STSimplePing.m */,
+				04F7EFD91DE289B900FE5072 /* STDPingServices.h */,
+				04F7EFDA1DE289B900FE5072 /* STDPingServices.m */,
+			);
+			path = PingTest;
+			sourceTree = "<group>";
+		};
+		04F7EFE01DE29CFF00FE5072 /* CircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				04F7EFE11DE29D0700FE5072 /* CircularProgressBar.h */,
+				04F7EFE21DE29D0700FE5072 /* CircularProgressBar.m */,
+			);
+			path = CircularProgress;
+			sourceTree = "<group>";
+		};
+		04F7EFEA1DE2DC3400FE5072 /* LoadWebView */ = {
+			isa = PBXGroup;
+			children = (
+				04F7EFEB1DE2DC3400FE5072 /* WKWebViewController.h */,
+				04F7EFEC1DE2DC3400FE5072 /* WKWebViewController.m */,
+			);
+			path = LoadWebView;
+			sourceTree = "<group>";
+		};
+		04F7EFEE1DE2EDD900FE5072 /* LHCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				04F7EFEF1DE2EDD900FE5072 /* lhCircleView.h */,
+				04F7EFF01DE2EDD900FE5072 /* lhCircleView.m */,
+				04F7EFF11DE2EDD900FE5072 /* NSTimer+LHBlockSupport.h */,
+				04F7EFF21DE2EDD900FE5072 /* NSTimer+LHBlockSupport.m */,
+			);
+			path = LHCircleView;
+			sourceTree = "<group>";
+		};
+		C3B85787F714DFC1F448D99B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C5477183A4B1B97655C71 /* Pods-PingMonitor.debug.xcconfig */,
+				C7EB9A74C2CB721D29002B0F /* Pods-PingMonitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F7EFC91DE288B700FE5072 /* Build configuration list for PBXNativeTarget "PingMonitor" */;
 			buildPhases = (
+				83E92C72C3E81A1C44FDBE4E /* [CP] Check Pods Manifest.lock */,
 				04F7EF981DE288B600FE5072 /* Sources */,
 				04F7EF991DE288B600FE5072 /* Frameworks */,
 				04F7EF9A1DE288B600FE5072 /* Resources */,
+				3D3108FF9F561F4D8318C7C5 /* [CP] Embed Pods Frameworks */,
+				B9236D8B03053B7DC1E7ED2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,7 +352,6 @@
 			files = (
 				04F7EFAF1DE288B700FE5072 /* LaunchScreen.storyboard in Resources */,
 				04F7EFAC1DE288B700FE5072 /* Assets.xcassets in Resources */,
-				04F7EFAA1DE288B600FE5072 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +371,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D3108FF9F561F4D8318C7C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingMonitor/Pods-PingMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83E92C72C3E81A1C44FDBE4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9236D8B03053B7DC1E7ED2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingMonitor/Pods-PingMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04F7EF981DE288B600FE5072 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F7EFA71DE288B600FE5072 /* ViewController.m in Sources */,
+				04F7EFD81DE2898B00FE5072 /* STSimplePing.m in Sources */,
+				04F7EFE91DE2DA6D00FE5072 /* RootViewController.m in Sources */,
+				04F7EFF41DE2EDD900FE5072 /* NSTimer+LHBlockSupport.m in Sources */,
+				04F7EFF71DE2FEB800FE5072 /* GDFadeView.m in Sources */,
+				04F7EFE31DE29D0700FE5072 /* CircularProgressBar.m in Sources */,
 				04F7EFA41DE288B600FE5072 /* AppDelegate.m in Sources */,
+				04F7EFDB1DE289B900FE5072 /* STDPingServices.m in Sources */,
 				04F7EFA11DE288B600FE5072 /* main.m in Sources */,
+				04F7EFED1DE2DC3400FE5072 /* WKWebViewController.m in Sources */,
+				04F7EFF31DE2EDD900FE5072 /* lhCircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04F7EFA81DE288B600FE5072 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04F7EFA91DE288B600FE5072 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04F7EFAD1DE288B700FE5072 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -423,9 +570,12 @@
 		};
 		04F7EFCA1DE288B700FE5072 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8C5477183A4B1B97655C71 /* Pods-PingMonitor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MCA22CRP8N;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PingMonitor/GDPrefixHeader.pch;
 				INFOPLIST_FILE = PingMonitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.PingMonitor;
@@ -435,9 +585,12 @@
 		};
 		04F7EFCB1DE288B700FE5072 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7EB9A74C2CB721D29002B0F /* Pods-PingMonitor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MCA22CRP8N;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PingMonitor/GDPrefixHeader.pch;
 				INFOPLIST_FILE = PingMonitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.PingMonitor;
@@ -514,6 +667,7 @@
 				04F7EFCB1DE288B700FE5072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F7EFCC1DE288B700FE5072 /* Build configuration list for PBXNativeTarget "PingMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +676,7 @@
 				04F7EFCE1DE288B700FE5072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F7EFCF1DE288B700FE5072 /* Build configuration list for PBXNativeTarget "PingMonitorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +685,7 @@
 				04F7EFD11DE288B700FE5072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
